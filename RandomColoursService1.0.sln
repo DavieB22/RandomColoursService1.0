@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomColoursService1.0", "RandomColoursService1.0\RandomColoursService1.0.csproj", "{DAA05B98-903A-49BA-8AB1-6089998995B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Front_End", "Front_End\Front_End.csproj", "{E5139BFE-AF76-4D51-AD78-7AB9E4B37BF6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DAA05B98-903A-49BA-8AB1-6089998995B4} = {DAA05B98-903A-49BA-8AB1-6089998995B4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAA05B98-903A-49BA-8AB1-6089998995B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA05B98-903A-49BA-8AB1-6089998995B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA05B98-903A-49BA-8AB1-6089998995B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA05B98-903A-49BA-8AB1-6089998995B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5139BFE-AF76-4D51-AD78-7AB9E4B37BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5139BFE-AF76-4D51-AD78-7AB9E4B37BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5139BFE-AF76-4D51-AD78-7AB9E4B37BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5139BFE-AF76-4D51-AD78-7AB9E4B37BF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3B450D5-FCB1-42A2-AC96-B03BFF243082}
+	EndGlobalSection
+EndGlobal

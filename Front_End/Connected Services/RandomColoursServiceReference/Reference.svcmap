@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a072c63f-d36b-4d16-b0c0-8cace345bc11" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:59844/RandomColoursService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RandomColoursService.xsd" MetadataType="Schema" ID="fc614682-8d53-4b28-aa80-2b28100491d5" SourceId="1" SourceUrl="http://localhost:59844/RandomColoursService.svc?xsd=xsd1" />
+    <MetadataFile FileName="RandomColoursService.wsdl" MetadataType="Wsdl" ID="c26d6490-9a50-478f-a02d-1385e075e066" SourceId="1" SourceUrl="http://localhost:59844/RandomColoursService.svc?wsdl" />
+    <MetadataFile FileName="RandomColoursService.disco" MetadataType="Disco" ID="691636dd-fe34-48a8-aba7-a46f2339721b" SourceId="1" SourceUrl="http://localhost:59844/RandomColoursService.svc?disco" />
+    <MetadataFile FileName="RandomColoursService1.xsd" MetadataType="Schema" ID="560adc48-92ae-41db-8c27-a7c805eb4c3f" SourceId="1" SourceUrl="http://localhost:59844/RandomColoursService.svc?xsd=xsd0" />
+    <MetadataFile FileName="RandomColoursService2.xsd" MetadataType="Schema" ID="46a10dc3-de44-41d7-aa89-1abd69c66b76" SourceId="1" SourceUrl="http://localhost:59844/RandomColoursService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
